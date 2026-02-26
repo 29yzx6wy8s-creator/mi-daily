@@ -1,0 +1,81 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-double-the-size-of-the-floating-action-button-that-contains-the-daily-logo-currently-displayed-via-edd5b96e-65c8-4396-b13d-60441938e0f3-1-png",
+      "featureTitle": "Double the size of the floating action button that contains the Daily logo (currently displayed via EDD5B96E-65C8-4396-B13D-60441938E0F3-1.png)",
+      "files": [
+        "frontend/src/components/FloatingActionButton.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-transform-the-floating-action-button-into-a-perfectly-circular-shape",
+      "featureTitle": "Transform the floating action button into a perfectly circular shape",
+      "files": [
+        "frontend/src/components/FloatingActionButton.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-fix-the-daily-logo-proportions-inside-the-button-so-it-displays-without-deformation-or-distortion",
+      "featureTitle": "Fix the Daily logo proportions inside the button so it displays without deformation or distortion",
+      "files": [
+        "frontend/src/components/FloatingActionButton.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-elegant-visual-styling-to-the-send-money-button-including-subtle-shadows-smooth-gradients-and-refined-hover-animations",
+      "featureTitle": "Add elegant visual styling to the send money button including subtle shadows, smooth gradients, and refined hover animations",
+      "files": [
+        "frontend/src/components/FloatingActionButton.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

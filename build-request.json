@@ -1,0 +1,95 @@
+{
+  "kind": "build_request",
+  "title": "Enhance send money button with circular design and elegant styling",
+  "projectName": "Mi Daily",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Double the size of the floating action button that contains the Daily logo (currently displayed via EDD5B96E-65C8-4396-B13D-60441938E0F3-1.png)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-13"
+        ],
+        "quotes": [
+          "si el doble"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Button dimensions are twice the current size",
+        "Button remains properly positioned on the screen"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Transform the floating action button into a perfectly circular shape",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-13"
+        ],
+        "quotes": [
+          "circular redondo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Button has equal width and height",
+        "Border radius creates a perfect circle",
+        "Logo is centered within the circular button"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Fix the Daily logo proportions inside the button so it displays without deformation or distortion",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-13"
+        ],
+        "quotes": [
+          "se ve deformada la imagen, osea al reducirla se pusieron las proporciones feas"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo maintains original aspect ratio",
+        "Logo appears clear and undistorted at the new size",
+        "Logo is properly scaled to fit within the circular button"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Add elegant visual styling to the send money button including subtle shadows, smooth gradients, and refined hover animations",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-13"
+        ],
+        "quotes": [
+          "añadir efectos como sombras, gradientes, animaciones al hacer hover"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Button has a subtle drop shadow that enhances depth",
+        "Button includes a smooth gradient effect",
+        "Hover state includes smooth transition animations",
+        "Overall appearance is polished and professional for a money transfer action"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any backend code or logic",
+    "Do not change authentication or registration flows",
+    "Only modify the floating action button component and its styling (XPath: /html[1]/body[1]/div[1]/div[1]/button[1]/img[1])"
+  ],
+  "nonGoals": [
+    "Changes to backend balance management",
+    "Modifications to login or registration functionality",
+    "Updates to other UI components beyond the send money button",
+    "Changes to transaction transfer logic"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

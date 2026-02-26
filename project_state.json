@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [
+    "UI changes only - backend, login, and registration functionality must remain untouched"
+  ],
+  "known_issues": [
+    "Current send money button logo (Daily) appears deformed/distorted when scaled down"
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-double-the-size-of-the-floating-action-button-that-contains-the-daily-logo-currently-displayed-via-edd5b96e-65c8-4396-b13d-60441938e0f3-1-png",
+      "title": "Double the size of the floating action button that contains the Daily logo (currently displayed via EDD5B96E-65C8-4396-B13D-60441938E0F3-1.png)",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-transform-the-floating-action-button-into-a-perfectly-circular-shape",
+      "title": "Transform the floating action button into a perfectly circular shape",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-fix-the-daily-logo-proportions-inside-the-button-so-it-displays-without-deformation-or-distortion",
+      "title": "Fix the Daily logo proportions inside the button so it displays without deformation or distortion",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-elegant-visual-styling-to-the-send-money-button-including-subtle-shadows-smooth-gradients-and-refined-hover-animations",
+      "title": "Add elegant visual styling to the send money button including subtle shadows, smooth gradients, and refined hover animations",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Improve send money button: make it circular, double size, fix logo proportions, add elegant styling (shadows, gradients, hover animations)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Mi Daily",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
